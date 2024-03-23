@@ -18,7 +18,7 @@ export default function Home() {
           <OrderList />
         </div>
       </header>
-      <main className="flex h-[90vh] flex-col items-center justify-between p-24">
+      <main className="flex h-[90vh] flex-col items-center justify-between p-14">
         <ProductContainer />
       </main>
     </>
