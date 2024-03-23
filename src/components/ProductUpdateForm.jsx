@@ -2,7 +2,7 @@
 import { useProductContext } from "@/contexts/ProductContext";
 import { useState } from "react";
 
-export default function ({ id }) {
+export default function ProductUpdateForm({ id }) {
     const { updateProduct } = useProductContext()
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [productData, setProductData] = useState({

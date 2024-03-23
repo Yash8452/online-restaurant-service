@@ -1,9 +1,8 @@
 "use client";
 import { useOrderContext } from "@/contexts/OrderContext";
-import { ShoppingCart } from "lucide";
 import { useState } from "react";
 
-export default function () {
+export default function OrderList() {
     const { orders } = useOrderContext()
     const [isModalOpen, setIsModalOpen] = useState(false);
 

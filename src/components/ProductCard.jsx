@@ -4,7 +4,7 @@ import { useProductContext } from "@/contexts/ProductContext";
 import ProductUpdateForm from "./ProductUpdateForm";
 
 
-export default function ({ product }) {
+export default function ProductCard({ product }) {
     const { deleteProduct } = useProductContext()
     const { addOrder } = useOrderContext()
     return (
